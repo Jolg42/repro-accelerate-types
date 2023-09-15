@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "accelerate",
+  "description": "Prisma development playground",
+  "main": "index.ts",
+  "scripts": {
+    "checktypes": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "dev",
+    "@prisma/extension-accelerate": "0.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.45",
+    "expect-type": "^0.16.0",
+    "prisma": "dev",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
